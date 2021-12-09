@@ -1,0 +1,35 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    width:100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+#start,#end{
+    width:100px;
+}
+
+td{
+    width:70px;
+    text-align: center;
+}
+
+.no_color{
+    background-color: transparent;
+}
+
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
