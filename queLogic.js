@@ -90,8 +90,6 @@ start.addEventListener('click',()=>{
             count = 0
             tempo=0
         }
-        console.log(count)
-        console.log(queArray)
     },duration)
 })
 
